@@ -1,0 +1,19 @@
+[project]
+name = "local-mcp-server-for-math"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Raza", email = "official.razarehman@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "fastmcp>=3.4.7",
+]
+
+[project.scripts]
+local-mcp-server-for-math = "local_mcp_server_for_math:main"
+
+[build-system]
+requires = ["uv_build>=0.12.3,<0.13.0"]
+build-backend = "uv_build"
